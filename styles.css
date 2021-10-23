@@ -1,0 +1,54 @@
+.container-fluid {
+    background-color: #3E065F;
+}
+
+.navall {
+    background-color: blueviolet;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+}
+
+#navbarNavheader>.navbar-nav {
+    margin-left: 2%;
+}
+
+.header {
+    margin-left: 2%;
+    background-color: blueviolet;
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    color: white;
+}
+
+.headerparagraph {
+    padding-left: 80%;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.main-body {
+    background-color: rgb(247, 184, 102);
+}
+
+.main-body>.fa {
+    margin-left: 2%;
+}
+
+.main-body>.info {
+    margin-left: 5%;
+}
+
+.notice {
+    background-color: rgb(212, 247, 248);
+}
+
+.notice>.fa {
+    margin-left: 2%;
+}
+
+.notice>.info {
+    margin-left: 5%;
+}
