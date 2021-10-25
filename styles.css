@@ -1,54 +1,159 @@
-.container-fluid {
-    background-color: #3E065F;
-}
-
-.navall {
-    background-color: blueviolet;
-}
-
-.navbar-nav {
-    margin-left: 20%;
-}
-
-#navbarNavheader>.navbar-nav {
-    margin-left: 2%;
-}
-
-.header {
-    margin-left: 2%;
-    background-color: blueviolet;
-}
-
-.navbar-nav>.nav-item>.nav-link {
-    color: white;
-}
-
-.headerparagraph {
-    padding-left: 80%;
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-}
-
-.main-body {
-    background-color: rgb(247, 184, 102);
-}
-
-.main-body>.fa {
-    margin-left: 2%;
-}
-
-.main-body>.info {
-    margin-left: 5%;
-}
-
-.notice {
-    background-color: rgb(212, 247, 248);
-}
-
-.notice>.fa {
-    margin-left: 2%;
-}
-
-.notice>.info {
-    margin-left: 5%;
-}
+        .container-fluid {
+            background-color: #3E065F;
+        }
+        
+        .navall {
+            background-color: blueviolet;
+        }
+        
+        .navbar-nav {
+            margin-left: 20%;
+        }
+        
+        #navbarNavheader>.navbar-nav {
+            margin-left: 2%;
+        }
+        
+        .header {
+            margin-left: 2%;
+            background-color: blueviolet;
+        }
+        
+        .navbar-nav>.nav-item>.nav-link {
+            color: white;
+        }
+        
+        .headerparagraph {
+            padding-left: 80%;
+            border-bottom-style: solid;
+            border-bottom-width: thin;
+        }
+        
+        .main-body {
+            background-color: rgb(247, 184, 102);
+        }
+        
+        .main-body>.fa {
+            margin-left: 2%;
+        }
+        
+        .main-body>.info {
+            margin-left: 5%;
+        }
+        
+        .notice {
+            background-color: rgb(212, 247, 248);
+        }
+        
+        .notice>.fa {
+            margin-left: 2%;
+        }
+        
+        .notice>.info {
+            margin-left: 5%;
+        }
+        
+        .resource-center {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        .left-center {
+            position: absolute;
+            top: 20%;
+            left: 2%;
+            font-weight: bold;
+            font-size: 100%;
+        }
+        
+        .left-center-below {
+            position: absolute;
+            top: 30%;
+            left: 1.8%;
+            width: 40%;
+            height: 5%;
+            text-align: justify;
+        }
+        
+        .btn {
+            position: absolute;
+            top: 50%;
+            left: 1.8%;
+        }
+        
+        .title {
+            margin-left: 4%;
+        }
+        
+        .description {
+            margin-left: 3%;
+            /* width: 25%; */
+        }
+        
+        .covid-safety-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        /* wrapper ko isplay flex, esvitra ko item chai row ma place hune i.e. sarara horizontally,
+        justify-content le chai, individual item lai kasari arrange garne, space-between means individual item wrapper ko
+        width ma aafai arrange hunxa, uniharu bich ma even space aayera..
+        */
+        
+        .covid-safety {
+            width: 25%;
+        }
+        
+        .nurses {
+            position: relative;
+            text-align: center;
+            color: orangered;
+        }
+        
+        .nurses-text {
+            position: absolute;
+            top: 30%;
+            left: 2%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 300%;
+            width: 55%;
+            text-align: justify;
+        }
+        
+        .nurses>.container>.content1 {
+            top: 20%;
+            position: absolute;
+            background: rgba(245, 230, 230, 0.5);
+            /* Black background with 0.5 opacity */
+            color: green;
+            font-weight: bold;
+            width: 30%;
+            margin-left: 50%;
+            padding: 20px
+        }
+        
+        .nurses>.container>.content2 {
+            top: 45%;
+            position: absolute;
+            background: rgba(245, 230, 230, 0.5);
+            /* Black background with 0.5 opacity */
+            color: green;
+            font-weight: bold;
+            width: 30%;
+            margin-left: 50%;
+            padding: 20px
+        }
+        
+        .nurses>.container>.content3 {
+            top: 70%;
+            position: absolute;
+            background: rgba(245, 230, 230, 0.5);
+            /* Black background with 0.5 opacity */
+            color: green;
+            font-weight: bold;
+            width: 30%;
+            margin-left: 50%;
+            padding: 20px
+        }
