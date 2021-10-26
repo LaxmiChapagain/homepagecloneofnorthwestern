@@ -1,159 +1,441 @@
-        .container-fluid {
-            background-color: #3E065F;
-        }
-        
-        .navall {
-            background-color: blueviolet;
-        }
-        
-        .navbar-nav {
-            margin-left: 20%;
-        }
-        
-        #navbarNavheader>.navbar-nav {
-            margin-left: 2%;
-        }
-        
-        .header {
-            margin-left: 2%;
-            background-color: blueviolet;
-        }
-        
-        .navbar-nav>.nav-item>.nav-link {
-            color: white;
-        }
-        
-        .headerparagraph {
-            padding-left: 80%;
-            border-bottom-style: solid;
-            border-bottom-width: thin;
-        }
-        
-        .main-body {
-            background-color: rgb(247, 184, 102);
-        }
-        
-        .main-body>.fa {
-            margin-left: 2%;
-        }
-        
-        .main-body>.info {
-            margin-left: 5%;
-        }
-        
-        .notice {
-            background-color: rgb(212, 247, 248);
-        }
-        
-        .notice>.fa {
-            margin-left: 2%;
-        }
-        
-        .notice>.info {
-            margin-left: 5%;
-        }
-        
-        .resource-center {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-        
-        .left-center {
-            position: absolute;
-            top: 20%;
-            left: 2%;
-            font-weight: bold;
-            font-size: 100%;
-        }
-        
-        .left-center-below {
-            position: absolute;
-            top: 30%;
-            left: 1.8%;
-            width: 40%;
-            height: 5%;
-            text-align: justify;
-        }
-        
-        .btn {
-            position: absolute;
-            top: 50%;
-            left: 1.8%;
-        }
-        
-        .title {
-            margin-left: 4%;
-        }
-        
-        .description {
-            margin-left: 3%;
-            /* width: 25%; */
-        }
-        
-        .covid-safety-wrapper {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        /* wrapper ko isplay flex, esvitra ko item chai row ma place hune i.e. sarara horizontally,
+            .container-fluid {
+                background-color: #3E065F;
+            }
+            
+            .navall {
+                background-color: blueviolet;
+            }
+            
+            .navbar-nav {
+                margin-left: 20%;
+            }
+            
+            #navbarNavheader>.navbar-nav {
+                margin-left: 2%;
+            }
+            
+            .header {
+                margin-left: 2%;
+                background-color: blueviolet;
+            }
+            
+            .navbar-nav>.nav-item>.nav-link {
+                color: white;
+            }
+            
+            .headerparagraph {
+                padding-left: 80%;
+                border-bottom-style: solid;
+                border-bottom-width: thin;
+            }
+            
+            .main-body {
+                background-color: rgb(247, 184, 102);
+            }
+            
+            .main-body>.fa {
+                margin-left: 2%;
+            }
+            
+            .main-body>.info {
+                margin-left: 5%;
+            }
+            
+            .notice {
+                background-color: rgb(212, 247, 248);
+            }
+            
+            .notice>.fa {
+                margin-left: 2%;
+            }
+            
+            .notice>.info {
+                margin-left: 5%;
+            }
+            
+            .resource-center {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            .left-center {
+                position: absolute;
+                top: 20%;
+                left: 2%;
+                font-weight: bold;
+                font-size: 100%;
+            }
+            
+            .left-center-below {
+                position: absolute;
+                top: 30%;
+                left: 1.8%;
+                width: 40%;
+                height: 5%;
+                text-align: justify;
+            }
+            
+            .button {
+                position: absolute;
+                top: 50%;
+                left: 1.8%;
+            }
+            
+            .title {
+                margin-left: 4%;
+            }
+            
+            .description {
+                margin-left: 3%;
+                /* width: 25%; */
+            }
+            
+            .covid-safety-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            /* wrapper ko isplay flex, esvitra ko item chai row ma place hune i.e. sarara horizontally,
         justify-content le chai, individual item lai kasari arrange garne, space-between means individual item wrapper ko
         width ma aafai arrange hunxa, uniharu bich ma even space aayera..
         */
-        
-        .covid-safety {
-            width: 25%;
-        }
-        
-        .nurses {
-            position: relative;
-            text-align: center;
-            color: orangered;
-        }
-        
-        .nurses-text {
-            position: absolute;
-            top: 30%;
-            left: 2%;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-weight: bold;
-            font-size: 300%;
-            width: 55%;
-            text-align: justify;
-        }
-        
-        .nurses>.container>.content1 {
-            top: 20%;
-            position: absolute;
-            background: rgba(245, 230, 230, 0.5);
-            /* Black background with 0.5 opacity */
-            color: green;
-            font-weight: bold;
-            width: 30%;
-            margin-left: 50%;
-            padding: 20px
-        }
-        
-        .nurses>.container>.content2 {
-            top: 45%;
-            position: absolute;
-            background: rgba(245, 230, 230, 0.5);
-            /* Black background with 0.5 opacity */
-            color: green;
-            font-weight: bold;
-            width: 30%;
-            margin-left: 50%;
-            padding: 20px
-        }
-        
-        .nurses>.container>.content3 {
-            top: 70%;
-            position: absolute;
-            background: rgba(245, 230, 230, 0.5);
-            /* Black background with 0.5 opacity */
-            color: green;
-            font-weight: bold;
-            width: 30%;
-            margin-left: 50%;
-            padding: 20px
-        }
+            
+            .covid-safety {
+                width: 25%;
+            }
+            
+            .nurses {
+                position: relative;
+                text-align: center;
+                color: orangered;
+            }
+            
+            .nurses-text {
+                position: absolute;
+                top: 30%;
+                left: 2%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-size: 300%;
+                width: 55%;
+                text-align: justify;
+            }
+            
+            .nurses>.container>.content1 {
+                top: 20%;
+                position: absolute;
+                background: rgba(245, 230, 230, 0.5);
+                /* Black background with 0.5 opacity */
+                color: green;
+                font-weight: bold;
+                width: 30%;
+                margin-left: 50%;
+                padding: 20px
+            }
+            
+            .nurses>.container>.content2 {
+                top: 45%;
+                position: absolute;
+                background: rgba(245, 230, 230, 0.5);
+                /* Black background with 0.5 opacity */
+                color: green;
+                font-weight: bold;
+                width: 30%;
+                margin-left: 50%;
+                padding: 20px
+            }
+            
+            .nurses>.container>.content3 {
+                top: 70%;
+                position: absolute;
+                background: rgba(245, 230, 230, 0.5);
+                /* Black background with 0.5 opacity */
+                color: green;
+                font-weight: bold;
+                width: 30%;
+                margin-left: 50%;
+                padding: 20px
+            }
+            /* .fa { padding-right: 37%;} */
+            
+            .doctors {
+                position: relative;
+                color: white;
+            }
+            
+            .doctors-text {
+                position: absolute;
+                top: 10%;
+                left: 2%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 300%;
+                width: 50%;
+            }
+            
+            .doctors-text>.doctors-text-info {
+                position: absolute;
+                font-size: 30px;
+            }
+            
+            .doctors>.doctors-text>.btn {
+                position: absolute;
+                top: 163%;
+                left: 1.8%;
+            }
+            
+            .staffs {
+                position: relative;
+                color: white;
+            }
+            
+            .staffs-text {
+                position: absolute;
+                top: 10%;
+                left: 2%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 300%;
+                width: 50%;
+            }
+            
+            .staffs-text>.staffs-text-info {
+                position: absolute;
+                font-size: 30px;
+            }
+            
+            .staffs>.doctors-text>.btn {
+                position: absolute;
+                top: 190%;
+                left: 1.8%;
+            }
+            
+            .data-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 3%;
+                padding-left: 5%;
+                padding-bottom: 5%;
+            }
+            
+            .covid-data-wrapper {
+                width: 25%;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.numbers {
+                color: purple;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.info {
+                color: black;
+                font-weight: bold;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button1 {
+                color: teal;
+                top: 110%;
+                margin-left: 2%;
+                margin-top: 15%;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button1:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button2 {
+                color: teal;
+                top: 170%;
+                margin-left: 2%;
+                margin-top: 9%;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button2:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button3 {
+                color: teal;
+                top: 110%;
+                margin-left: 2%;
+                margin-top: 9%;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button3:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button4 {
+                color: teal;
+                top: 110%;
+                margin-left: 2%;
+                margin-top: 15%;
+            }
+            
+            .data-wrapper>.covid-data-wrapper>.button4:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .buildings {
+                position: relative;
+                color: white;
+            }
+            
+            .buildings-text {
+                position: absolute;
+                top: 10%;
+                left: 2%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 300%;
+                width: 50%;
+            }
+            
+            .buildings-text>.buildings-text-info {
+                position: absolute;
+                font-size: 30px;
+            }
+            
+            .buildings>.buldings-text>.btn {
+                position: absolute;
+                margin-top: 90%;
+                left: 1.8%;
+            }
+            
+            .data2-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 3%;
+                padding-left: 5%;
+                padding-bottom: 5%;
+            }
+            
+            .covid-data2-wrapper {
+                width: 25%;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.numbers2 {
+                color: purple;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.info2 {
+                color: black;
+                font-weight: bold;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button1 {
+                color: teal;
+                top: 110%;
+                margin-left: 2%;
+                margin-top: 15%;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button1:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button2 {
+                color: teal;
+                top: 170%;
+                margin-left: 2%;
+                margin-top: 9%;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button2:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button3 {
+                color: teal;
+                top: 110%;
+                margin-left: 2%;
+                margin-top: 9%;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button3:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button4 {
+                color: teal;
+                top: 110%;
+                margin-left: 2%;
+                margin-top: 15%;
+            }
+            
+            .data2-wrapper>.covid-data2-wrapper>.button4:hover {
+                background-color: green;
+                color: white;
+            }
+            
+            .row {
+                color: black;
+                padding-top: 3%;
+            }
+            /* .form-inline {
+                display: inline-block;
+            } */
+            
+            .footer-wrapper {
+                margin-top: 3%;
+                color: black;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .footer-title {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            
+            .footer-button {
+                padding-top: 3%;
+                margin-top: 20%;
+            }
+            
+            .address-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .address-wrapper>.address-wrapper-info {
+                color: teal;
+            }
+            
+            .rights-summary {
+                display: flex;
+                flex-direction: row;
+                margin-left: 2%;
+            }
+            
+            .connectivity {
+                display: flex;
+                flex-direction: row;
+                margin-left: 65%;
+            }
+            
+            .accessibility {
+                margin-left: 2%;
+            }
+            
+            .fa {
+                padding-right: 10%;
+            }
+            
+            .video-blog {
+                display: flex;
+                flex-direction: row;
+                margin-left: 65%;
+            }
+            
+            .videolibrary {
+                padding-left: 7%;
+            }
