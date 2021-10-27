@@ -184,29 +184,42 @@
                 left: 1.8%;
             }
             
-            .staffs {
-                position: relative;
+            #staffs {
+                height: 300px;
+                color: white;
+                background-image: url('./images/staff.jpg');
+            }
+            
+            .buildings {
+                background-image: url('./images/building.jpg');
+                height: 300px;
                 color: white;
             }
             
             .staffs-text {
-                position: absolute;
-                top: 10%;
-                left: 2%;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 300%;
-                width: 50%;
-            }
-            
-            .staffs-text>.staffs-text-info {
-                position: absolute;
+                padding-top: 5%;
                 font-size: 30px;
             }
             
-            .staffs>.doctors-text>.btn {
-                position: absolute;
-                top: 190%;
-                left: 1.8%;
+            .buildings-text {
+                padding-top: 5%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 30px;
+            }
+            
+            .staffs-text>.staffs-text-info {
+                font-size: 20px;
+            }
+            
+            .hospitals {
+                background-image: url('./images/hospital.jpg');
+                height: 300px;
+                color: white;
+            }
+            
+            .hospitals-text {
+                padding-top: 5%;
+                font-size: 30px;
             }
             
             .data-wrapper {
@@ -277,31 +290,6 @@
             .data-wrapper>.covid-data-wrapper>.button4:hover {
                 background-color: green;
                 color: white;
-            }
-            
-            .buildings {
-                position: relative;
-                color: white;
-            }
-            
-            .buildings-text {
-                position: absolute;
-                top: 10%;
-                left: 2%;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 300%;
-                width: 50%;
-            }
-            
-            .buildings-text>.buildings-text-info {
-                position: absolute;
-                font-size: 30px;
-            }
-            
-            .buildings>.buldings-text>.btn {
-                position: absolute;
-                margin-top: 90%;
-                left: 1.8%;
             }
             
             .data2-wrapper {
